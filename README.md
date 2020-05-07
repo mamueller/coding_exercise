@@ -1,16 +1,17 @@
-run the profiling by simply by:
+Run the profiling and produce the profiling.pdf plots simply by:
+```bash
 python profiling.py
-
+```
 The code is organized in a way to highlight small differences between the different implementations by using 
 diff. To compare pcc_forloop_compiled.py and the original python_3.py:
 simply say:
+```bash
 diff pcc_forloop_compiled.py python_3.py
+```
 
-
-
-It turns out that the original code, although very unpythonic
+It turns out that the original code, although very "unpythonic"
 in its present form is actually higly suited for compilation
-(in our case using the numba compiler).
+(in our case using the numba compiler based on llvm).
 The reason is that it is a 'single sweep' algorythm that
 traverses the arrays ONLY ONCE.
 This is exactly what vector computers were invented for (then Crays ...today
