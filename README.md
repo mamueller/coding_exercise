@@ -1,4 +1,4 @@
-Run the profiling and produce the profiling.pdf plots simply by:
+Look at the plots ins ```profiling.pdf``` or produce them  simply by:
 ```bash
 python profiling.py
 ```
