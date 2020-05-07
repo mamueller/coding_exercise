@@ -1,4 +1,4 @@
-Look at the plots ins ```profiling.pdf``` or produce them  simply by:
+Look at the plots in ```profiling.pdf``` or produce them  simply by:
 ```bash
 python profiling.py
 ```
